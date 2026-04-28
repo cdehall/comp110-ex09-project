@@ -1,13 +1,41 @@
+# COMP110 Data Analysis Project
+
+## Overview
+This project explores the relationship between temperature and the occurrence of a "shadow" event using the Walter Wally dataset. The goal is to identify whether temperature differences may be associated with whether a shadow is observed.
+
 ---
-# Do not edit the text between these lines!
-layout: default
+
+## Dataset Description
+The dataset includes yearly records with:
+- Year (2018–2022)
+- Temperature (in degrees)
+- Result (shadow or no shadow)
+
+Example data:
+
+- 2018, 48.24, no shadow  
+- 2019, 46.63, shadow  
+- 2020, 52.50, shadow  
+- 2021, 45.86, no shadow  
+- 2022, 50.36, shadow  
+
 ---
 
-# This is a big header
+## Analysis
+The data was separated into two groups:
+- Years with a shadow
+- Years with no shadow
 
-<!-- This is a comment. Below, you'll see code for inserting an image. To make this image appear, update <custom-path>. To add an image, save it inside the imgs folder of this repository. -->
-<img src="<custom-path>/static/imgs/logo.png" alt="Image of Comp110 rainbow logo. "  width="500"/>
+Temperatures were compared across these groups to determine whether shadow occurrence correlates with higher or lower temperatures.
 
-## This is a small header
+Initial observations suggest that shadow years tend to have slightly higher temperatures on average, but the dataset is very small, making strong conclusions difficult.
 
-This is basic paragraph text.
+---
+
+## Conclusion
+While there appears to be a possible relationship between temperature and shadow occurrence, the sample size is too limited to make a statistically strong claim. More years of data would be needed to confirm any real trend.
+
+---
+
+## Notes
+This analysis was performed as part of COMP110 using Python data utilities and visualizations in seaborn (graphs included in notebook).
